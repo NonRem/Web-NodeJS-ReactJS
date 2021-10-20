@@ -15,7 +15,9 @@ export class Alunos
     @Column()
     idade: number;
 
-    @Column()
+    @Column({
+        default: true
+    })
     matriculado: boolean;
 
     @Column()
