@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import Multiplicador from './Multiplicador';
 
 function App() {

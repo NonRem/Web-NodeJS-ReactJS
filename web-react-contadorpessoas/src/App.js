@@ -35,14 +35,14 @@ class Contador extends React.Component {
   render() {
     return (
       <div className="card">
-        <Card>
+        <Card style={{ width: '18rem' }}>
           <Card.Body>
           <Card.Title>Contador:</Card.Title>
           
           <Card.Text>
             <h1>{this.state.pessoas}</h1>
             <br/>
-            <Button variant="success" size="lg" onClick={this.somar}>+</Button>
+            <Button variant="success" size="lg" onClick={this.somar}>+</Button>{' '}{' '}
             <Button variant="danger" size="lg" onClick={this.sub}>-</Button>
           </Card.Text>
           </Card.Body>

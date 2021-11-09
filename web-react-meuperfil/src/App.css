@@ -1,3 +1,6 @@
 .card {
-  
+  align-items: center;
+}
+.list-group-flush {
+  text-align: justify;
 }
